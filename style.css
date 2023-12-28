@@ -67,8 +67,8 @@ h3{
   }
 
 .logo {
-    width: 10%; /* Default width */
-    height: 10%; /* Default height */
+    width: 17%; /* Default width */
+    height: 17%; /* Default height */
   }
   
   /* Media query for mobile screens */
@@ -81,7 +81,7 @@ h3{
       
 
     .logo {
-      width: 30%; /* Adjust the width for smaller screens */
+      width: 40%; /* Adjust the width for smaller screens */
       height: auto; /* Allow height to adjust proportionally */
     }
     .section3 {
