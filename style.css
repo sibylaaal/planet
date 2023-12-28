@@ -22,7 +22,8 @@
   }
   
   /* Adjust video container width */
- 
+
+
   
   /* Style the video element */
   .video-container video {
@@ -54,6 +55,10 @@ h3{
     margin-right: 2vw;
     color: #2d353c;
  
+}
+.caro{
+  padding: 20px;
+  background-color: black;
 }
 .line {
     border-bottom: 3px solid #2d353c ; /* Adjust the color and thickness as needed */
