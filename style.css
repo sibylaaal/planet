@@ -81,6 +81,15 @@ h3{
     font-weight: 900;
     text-align: center;
   }
+  .t7{
+    width: 70%;
+    font-size: 30px;
+    padding: 9px;
+    margin-bottom: 5vw;
+    direction: rtl;
+    font-weight: 900;
+    text-align: center;
+  }
   .centered-arabic-text {
     text-align: center;
     direction: rtl; /* Right-to-left direction for Arabic */
