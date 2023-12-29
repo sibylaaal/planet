@@ -15,9 +15,10 @@
 .vd {
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 130vh; /* Adjust the height as needed */
     /* Additional styling for the section if necessary */
   }
   
@@ -27,7 +28,7 @@
   
   /* Style the video element */
   .video-container video {
-    max-width:700px; /* Ensure the video doesn't overflow its container */
+    max-width:100%; /* Ensure the video doesn't overflow its container */
     height: 500px; /* Allow the video's height to adjust proportionally */
   }
   
@@ -71,11 +72,44 @@ h3{
     height: 17%; /* Default height */
   }
   
+
+  .t6{
+    width: 70%;
+    font-size: 30px;
+    padding: 9px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .centered-arabic-text {
+    text-align: center;
+    direction: rtl; /* Right-to-left direction for Arabic */
+  }
+  .centered-english-text {
+    text-align: center;
+    direction: ltr; /* Right-to-left direction for Arabic */
+  }
+  .l{
+    margin-left: 50px;
+  }
+
   /* Media query for mobile screens */
   @media (max-width: 768px) {
 
+    .l{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+    }
+.t6{
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: -50px;
+  font-weight: 900;
+  text-align:end
 
-
+}
       
      
       
