@@ -101,6 +101,10 @@ h3{
   .l{
     margin-left: 50px;
   }
+  .ratings i{
+
+    color: orange;
+   }
 
   /* Media query for mobile screens */
   @media (max-width: 768px) {
