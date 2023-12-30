@@ -106,9 +106,15 @@ h3{
 
     color: orange;
    }
-
+   
   /* Media query for mobile screens */
   @media (max-width: 768px) {
+    
+    .ps{
+    margin-left: -5px;
+    font-size: 20px;
+   }
+
     .centered-english-text {
       text-align: start;
        margin-left: 10vw;
