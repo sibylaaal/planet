@@ -95,7 +95,8 @@ h3{
     direction: rtl; /* Right-to-left direction for Arabic */
   }
   .centered-english-text {
-    text-align: center;
+    text-align: start;
+
     direction: ltr; /* Right-to-left direction for Arabic */
   }
   .l{
@@ -108,6 +109,11 @@ h3{
 
   /* Media query for mobile screens */
   @media (max-width: 768px) {
+    .centered-english-text {
+      text-align: start;
+       margin-left: 10vw;
+      direction: ltr; /* Right-to-left direction for Arabic */
+    }
 .cmobile{
   display: grid;
   place-items: center;
