@@ -108,7 +108,14 @@ h3{
 
   /* Media query for mobile screens */
   @media (max-width: 768px) {
-
+.cmobile{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  margin-left: 9vw;
+}
     .l{
       display: flex;
       flex-direction: column;
