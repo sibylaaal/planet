@@ -116,7 +116,9 @@ h3{
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
-   
+   .vd{
+    height: 80vw;
+   }
     
     .ps{
     margin-left: -5px;
