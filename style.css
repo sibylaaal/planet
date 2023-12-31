@@ -116,7 +116,11 @@ h3{
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
-   
+   .vd {
+  
+    height: 78vh; /* Adjust the height as needed */
+    /* Additional styling for the section if necessary */
+  }
     
     .ps{
     margin-left: -5px;
