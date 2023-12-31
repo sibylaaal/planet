@@ -26,8 +26,8 @@
 
 
   .carousel-item img{
-    height: 70vw;
-    width: 100vw;
+    height: 40vw;
+    width: 80vw;
 
   }
   /* Style the video element */
@@ -109,13 +109,18 @@ h3{
   .l{
     margin-left: 50px;
   }
-  .ratings i{
+  .ratings .far{
 
     color: orange;
    }
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
+    .carousel-item img{
+      height: 70vw;
+      width: 100vw;
+  
+    }
    .vd{
     height: 100vh;
    }
