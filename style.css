@@ -116,10 +116,11 @@ h3{
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
-   .video-container video {
-
-    margin-bottom: -200px;
-   }
+    .video-container video {
+      max-width:100%; /* Ensure the video doesn't overflow its container */
+      height: 300px; /* Allow the video's height to adjust proportionally */
+    }
+    
     
     .ps{
     margin-left: -5px;
@@ -160,7 +161,7 @@ h3{
   width: 100vw;
   direction: rtl;
 
-  margin-bottom: -50px;
+  margin-bottom: -200px;
   font-weight: 900;
   margin-top: -100px;
   text-align:end
