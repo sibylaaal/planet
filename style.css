@@ -116,15 +116,7 @@ h3{
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
-   .vd {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust the height as needed */
-    /* Additional styling for the section if necessary */
-  }
+   
     
     .ps{
     margin-left: -5px;
