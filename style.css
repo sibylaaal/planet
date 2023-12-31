@@ -25,7 +25,11 @@
   /* Adjust video container width */
 
 
-  
+  .carousel-item img{
+    height: 40vw;
+    width: 80vw;
+
+  }
   /* Style the video element */
   .video-container video {
     max-width:100%; /* Ensure the video doesn't overflow its container */
@@ -90,8 +94,11 @@ h3{
     font-weight: 900;
     text-align: center;
   }
+  .smw{
+    font-size: 22px;
+  }
   .centered-arabic-text {
-    text-align: center;
+    text-align: start;
     direction: rtl; /* Right-to-left direction for Arabic */
   }
   .centered-english-text {
@@ -109,6 +116,7 @@ h3{
    
   /* Media query for mobile screens */
   @media (max-width: 768px) {
+   
     
     .ps{
     margin-left: -5px;
@@ -175,7 +183,7 @@ flex-direction: column;
         border-bottom: 1px solid #2d353c; /* Border right */
       
       }
-     
+  
  
 } 
 
@@ -207,11 +215,11 @@ flex-direction: column;
 }
 
 .c1{
-    background-color: #10686b;
+    background-color: #ffffff;
     color: white;
 }
 .b1{
-    background-color: #00acac;
+    background-color: #ffffff;
     color: white;
     font-weight: 800;
     font-size: 20px;
