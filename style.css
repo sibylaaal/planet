@@ -117,6 +117,9 @@ h3{
   /* Media query for mobile screens */
   @media (max-width: 768px) {
    
+    video{
+      margin-bottom: -80px;
+    }
     
     .ps{
     margin-left: -5px;
